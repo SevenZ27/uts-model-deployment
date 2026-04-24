@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load model dari artifacts
-clf_model = joblib.load("artifacts/classification_pipeline.pkl")
-reg_model = joblib.load("artifacts/regression_pipeline.pkl")
+clf_model = joblib.load("classification_pipeline.pkl")
+reg_model = joblib.load("regression_pipeline.pkl")
 
 
 def main():
